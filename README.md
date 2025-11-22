@@ -32,8 +32,6 @@ Provide insights into which product categories the user should focus on based on
 * **ML Models:** Scikit-Learn (Pickled pipelines)
 * **Frontend:** HTML, CSS, JS (Jinja templates)
 
----
-
 ## Required Model Files (`models/`)
 
 Place these inside the *models* folder:
