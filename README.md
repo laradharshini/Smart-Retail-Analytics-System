@@ -42,9 +42,6 @@ Place these inside the *models* folder:
 * `offer_mlb.pkl`
 * `segmentation_kmeans_model.pkl`
 
-(*Ignore trend/retention models – not used.*)
-
-
 ## User Authentication
 
 * Signup, Login, Logout
@@ -60,7 +57,7 @@ python app.py
 
 App runs at: **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
 
-## Folder Structure 
+## Project Structure 
 
 ```
 smart-retail/
@@ -71,7 +68,7 @@ smart-retail/
 │ ├─ offer_rf_model.pkl
 │ ├─ offer_mlb.pkl
 │ ├─ segmentation_kmeans_model.pkl
-│ ├─ category_optimizer.py # contains train_category_model, generate_category_insights
+│ ├─ category_optimizer.py 
 │ └─ ...
 ├─ templates/
 │ ├─ home.html
@@ -87,7 +84,7 @@ smart-retail/
 │ └─ ...
 ├─ static/
 │ └─ (images, css, js)
-├─ Customer Experience Dataset.csv # optional used to calculate average spend
+├─ Customer Experience Dataset.csv
 ├─ requirements.txt
 ```
 
@@ -97,13 +94,12 @@ smart-retail/
 * `/predict_sales`
 * `/predict_recommendation`
 * `/predict-segment`
-* `/category` (form-based)
+* `/category`
 
 ## Notes
 
 * Passwords are stored as plain text in this version → **use hashing in production**.
 * Missing models will disable specific tools but the app will still run.
-Here is a clean, concise **To-Do section** you can directly paste into your README:
 
 ## To Do
 
